@@ -1,6 +1,23 @@
+@media (max-width: 575px) {
+h2, p,  .app-link{
+  text-align: center;
+}
+
+  .app-link {
+    display: block;
+     margin: 0 35px;
+  }
+  
+  .vinnie-img {
+    display: none;
+  }
+
+ }
+
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #886ce4;
     --secondary-color: #f5f2fe;
+    --accent-color: #31d2f7;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
   
@@ -82,10 +99,12 @@
   
   a:hover {
     color: #0a58ca;
+    transition: ease-in-out;
   }
   
   .email-link:hover {
     text-decoration: underline;
+    transition: ease-in-out;
   }
   
   .app-link {
