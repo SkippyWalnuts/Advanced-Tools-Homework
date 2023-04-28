@@ -65,7 +65,7 @@ h2, p,  .app-link{
   .navigation-links a {
     margin: 20px;
     border-radius: 4px;
-    padding: 20px 15px;
+    padding: 25px 50px;
     text-decoration: none;
     text-transform: capitalize;
   }
@@ -99,20 +99,20 @@ h2, p,  .app-link{
   
   a:hover {
     color: var(--accent-color);
-    transition: ease-in-out;
-  }
-  
-  .email-link:hover {
     text-decoration: underline;
     transition: ease-in-out;
   }
   
+  .b-early-link:hover {
+    text-decoration: none;
+  }
+
   .app-link {
     background: var(--primary-color);
     border-radius: 4px;
     box-shadow: var(--box-shadow);
     color: white;
-    padding: 20px 15px;
+    padding: 25px 50px;
     text-decoration: none;
     text-transform: capitalize;
   }
