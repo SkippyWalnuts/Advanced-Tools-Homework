@@ -98,7 +98,7 @@ h2, p,  .app-link{
   }
   
   a:hover {
-    color: #0a58ca;
+    color: var(--accent-color);
     transition: ease-in-out;
   }
   
