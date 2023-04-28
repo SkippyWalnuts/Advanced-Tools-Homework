@@ -66,6 +66,7 @@ h2, p,  .app-link{
     margin: 20px;
     border-radius: 4px;
     padding: 25px 50px;
+    text-align: center;
     text-decoration: none;
     text-transform: capitalize;
   }
